@@ -1,0 +1,89 @@
+
+
+body{
+  
+  background-image: url('../frontend/logo/tambang2.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+
+
+
+.form {
+  margin-top: 115px;
+  
+}
+.form button {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.form-signin img, .form-registration img{
+  width: 180px;
+  display: block; 
+  margin: auto; 
+  text-align: center;
+  padding-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+/* register */
+small{
+  color: black;
+}
+
+.form-registration, .form-signin{
+  
+  /* background-color: #fbfbff; */
+  /* background-color: rgba(230, 230, 230, 0.8); */
+  background-color: hsla(0, 0%, 100%, 0.1);
+  backdrop-filter: blur(15px);
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  
+}
+
+
+
+
+.row {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
+.form-registration input {
+  border-radius: 0;
+  margin-bottom: -1px;
+  
+}
+
+.carousel-inner img {
+  width: 100%;
+}
+
+
